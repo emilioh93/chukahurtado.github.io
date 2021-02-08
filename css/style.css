@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 * {
     padding: 0%;
     margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+    text-align: start;
+}
+
+
+/* Background */
+
+.fondo {
+    background-image: url(../img/background.gif);
+    background-size: cover;
 }
 
 
@@ -19,4 +30,12 @@
     .tamanioImgSm {
         height: 135px;
     }
+}
+
+
+/* Acordeon */
+
+.accordion-button:not(.collapsed) {
+    color: whitesmoke;
+    background-color: #212529;
 }
