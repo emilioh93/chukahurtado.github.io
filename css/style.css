@@ -1,0 +1,22 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Header */
+
+.redondearImg {
+    border-radius: 50%;
+    height: 180px;
+    display: block;
+    object-fit: contain;
+    object-position: initial;
+    filter: none;
+}
+
+@media (max-width: 767.98px) {
+    .tamanioImgSm {
+        height: 135px;
+    }
+}
