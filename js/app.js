@@ -9,4 +9,4 @@ function slider() {
     x++;
 }
 
-let temporizador = setInterval("slider()", 3000);
+let temporizador = setInterval("slider()", 6000);

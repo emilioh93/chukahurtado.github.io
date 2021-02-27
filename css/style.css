@@ -58,6 +58,13 @@
 }
 
 
+/* Album */
+
+.quitarBordesAlbum {
+    border: none;
+}
+
+
 /* Footer */
 
 .fondoFooter {

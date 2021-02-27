@@ -17,7 +17,7 @@
     <header>
         <section class="text-center my-5 text-dark">
             <div class="d-flex justify-content-center">
-                <img id="imgAvatar" src="img/avatar.png" alt="imagen propia" class="mb-3 redondearImg tamanioImgSm sombra">
+                <img id="imgAvatar" src="img/avatar.png" alt="imagen propia" class="mb-3 efectoTransition redondearImg tamanioImgSm sombra">
             </div>
             <h3 class="text-dark text-center"><b>Chuka Hurtado</b> <span class="text-secondary">♪</span></i>
             </h3>
@@ -25,20 +25,33 @@
     </header>
     <main class="mt-1">
         <section class="container">
+            <!-- ACORDEONES -->
             <div class="accordion accordion-flush" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading1">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Mirá el video de "Durazno Sangrando"</button>
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">Mirá el video de "Un Pacto"</button>
                     </h2>
-                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                    <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-center">
                             <a href="" target="_blank"><i class="fa-3x p-1 mx-2 fab fa-youtube text-dark"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">"Durazno Sangrando"</button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="accordion-body text-center">
+                                <a href="" target="_blank"><i class="fa-3x p-1 mx-2 fab fa-youtube  text-dark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="heading3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Escuchá "Aquellos Momentos"</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">"Lo mejor del amor"</button>
                     </h2>
                     <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-center">
@@ -49,19 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="heading2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Mirá el video de "Un Pacto"</button>
-                    </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <div class="accordion-body text-center">
-                                <a href="" target="_blank"><i class="fa-3x p-1 mx-2 fab fa-youtube  text-dark"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
+                <!-- <div class="accordion-item">
                     <h2 class="accordion-header" id="heading4">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Escuchá "Algunas Noches"</button>
                     </h2>
@@ -86,8 +87,25 @@
                             <a href="" target="_blank"><i class="fa-3x p-1 mx-2 text-dark fab fa-amazon"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
+            <!-- CARDS -->
+            <article class="row mt-5 d-flex justify-content-center">
+                <div class="col-md-6 col-sm-12">
+                    <div class="card bg-dark text-white quitarBordesAlbum shadow w-75">
+                        <img src="img/portada.Aquellos.png" class="card-img w-100" alt="foto album aquellos momentos">
+                        <div class="card-img-overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="card bg-dark text-white quitarBordesAlbum shadow w-75">
+                        <img src="img/portada.Algunas.png" class="card-img w-100" alt="foto album algunas noches">
+                        <div class="card-img-overlay">
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
     <footer class="mt-5 py-5 fondoFooter text-dark d-flex justify-content-center">
