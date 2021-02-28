@@ -60,6 +60,20 @@
     border-bottom: 1px solid #212529;
 }
 
+.magnifyTextMiniatura {
+    color: hsl(222, 25%, 14%);
+    transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.magnifyTextMiniatura:hover {
+    transform: scale(1.05);
+    color: hsl(243, 80%, 62%);
+}
+
+.magnifyTextMiniatura:active {
+    transform: scale(.9);
+}
+
 
 /* Album */
 
@@ -93,6 +107,9 @@
     background-image: linear-gradient(180deg, #ffffff00 0%, #69696b56 50%, #4e4c4c79 100%);
 }
 
+
+/* Extras */
+
 @media (max-width: 767.98px) {
     .tamanioImgSm {
         height: 135px;
@@ -114,10 +131,17 @@
     #indicacion {
         font-size: 15px;
     }
+    .marginTopIndividual {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 768px) {
     .miniaturaTamanioMD {
         width: 50%;
     }
+}
+
+img {
+    border-radius: .25rem;
 }
