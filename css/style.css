@@ -80,11 +80,17 @@
         background-image: url(../img/fondo.png);
         background-size: auto;
     }
-    .tamanioMiniaturas {
-        width: 80%;
+    .miniaturaTamanioSM {
+        width: 100%;
     }
     .btnTamanioMobile {
         width: 45%;
         font-size: small;
+    }
+}
+
+@media (min-width: 768px) {
+    .miniaturaTamanioMD {
+        width: 50%;
     }
 }
