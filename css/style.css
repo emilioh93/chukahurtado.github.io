@@ -33,9 +33,18 @@
 
 /* Acordeon */
 
+.accordion-button:focus {
+    border-color: #dc35463a;
+    box-shadow: none;
+}
+
 .accordion-button:not(.collapsed) {
     color: whitesmoke;
     background-color: #212529;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/flechaAbajo.png);
 }
 
 .accordion {
