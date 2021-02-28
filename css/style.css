@@ -105,12 +105,12 @@
         font-size: small;
     }
     .fa-3x {
-        font-size: 2em;
+        font-size: 1em;
         margin: 0%;
         padding: 0%;
     }
     #indicacion {
-        font-size: small;
+        font-size: 10px;
     }
 }
 
