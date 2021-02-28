@@ -104,10 +104,13 @@
         width: 45%;
         font-size: small;
     }
-    .iconosTamanioSM {
-        font-size: 35px;
+    .fa-3x {
+        font-size: 2em;
         margin: 0%;
         padding: 0%;
+    }
+    #indicacion {
+        font-size: small;
     }
 }
 
