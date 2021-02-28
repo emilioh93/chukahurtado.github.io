@@ -33,6 +33,10 @@
 
 /* Acordeon */
 
+.accordion-flush .accordion-collapse {
+    padding-bottom: 10px;
+}
+
 .accordion-button:focus {
     border-color: #dc35463a;
     box-shadow: none;
@@ -105,12 +109,10 @@
         font-size: small;
     }
     .fa-3x {
-        font-size: 1em;
-        margin: 0%;
-        padding: 0%;
+        font-size: 2em;
     }
     #indicacion {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
